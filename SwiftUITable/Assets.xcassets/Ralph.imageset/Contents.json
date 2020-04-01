@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Ralph-Breaks-the-Internet-Wreck-It-Ralph-2-2018-movie-poster.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "螢幕快照 2018-12-11 上午8.55.02.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
