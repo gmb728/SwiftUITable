@@ -13,6 +13,8 @@
 		DD70E2192433370A00978B71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD70E2182433370A00978B71 /* Assets.xcassets */; };
 		DD70E21C2433370A00978B71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD70E21B2433370A00978B71 /* Preview Assets.xcassets */; };
 		DD70E21F2433370A00978B71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD70E21D2433370A00978B71 /* LaunchScreen.storyboard */; };
+		DD87C4D4243C659D00373C3D /* RoleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87C4D3243C659D00373C3D /* RoleDetailView.swift */; };
+		DD87C4D6243C72F600373C3D /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87C4D5243C72F600373C3D /* Role.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DD70E21B2433370A00978B71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DD70E21E2433370A00978B71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD70E2202433370A00978B71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD87C4D3243C659D00373C3D /* RoleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleDetailView.swift; sourceTree = "<group>"; };
+		DD87C4D5243C72F600373C3D /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				DD70E2162433370300978B71 /* ContentView.swift */,
 				DD70E2182433370A00978B71 /* Assets.xcassets */,
 				DD70E21D2433370A00978B71 /* LaunchScreen.storyboard */,
+				DD87C4D3243C659D00373C3D /* RoleDetailView.swift */,
+				DD87C4D5243C72F600373C3D /* Role.swift */,
 				DD70E2202433370A00978B71 /* Info.plist */,
 				DD70E21A2433370A00978B71 /* Preview Content */,
 			);
@@ -148,7 +154,9 @@
 			files = (
 				DD70E2132433370300978B71 /* AppDelegate.swift in Sources */,
 				DD70E2152433370300978B71 /* SceneDelegate.swift in Sources */,
+				DD87C4D4243C659D00373C3D /* RoleDetailView.swift in Sources */,
 				DD70E2172433370300978B71 /* ContentView.swift in Sources */,
+				DD87C4D6243C72F600373C3D /* Role.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
