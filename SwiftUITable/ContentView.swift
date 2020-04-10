@@ -10,22 +10,26 @@ import SwiftUI
 
 struct ContentView: View {
     
-    
+    @State var showDetailView = false
+    @State var selectedRole: Role?
     
     var body: some View {
         
      NavigationView {
+        
         List(roles) { role in
-            ZStack {
+           
                 
             RoleRow(role: role)
-                
-                NavigationLink(destination: RoleDetailView(role:role)) {
-                    EmptyView()
+                .onTapGesture{
+                    self.showDetailView = true
+                    self.selectedRole = role
                 }
-        }
-    
+     
 }
+        .sheet(item: self.$selectedRole) { role in
+            RoleDetailView(role: role)
+        }
         .navigationBarTitle("Disney Princess")
         }
     }
